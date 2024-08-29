@@ -1,3 +1,7 @@
+/**
+* Kyla Hockett
+*/
+
 package howard.lsp.assignment1;
 
 public class HelloWorld {
