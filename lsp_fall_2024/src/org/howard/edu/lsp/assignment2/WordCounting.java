@@ -7,12 +7,11 @@ import java.util.regex.Pattern;
 import java.util.regex.Matcher;
 import java.io.FileNotFoundException;
 
-
 public class WordCounting {
 
     public static void main(String[] args) throws FileNotFoundException 
     {
-        String filename = "words.txt"; 
+        String filename = "words.text"; 
         try (Scanner inputfile = new Scanner(new File(filename)))
         {
             HashMap<String, Integer> wordcounter = new HashMap<>();
