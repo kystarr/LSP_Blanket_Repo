@@ -60,7 +60,7 @@ public boolean equals(Object o) {
 
 /**
  * 
- *  Returns true if the set contains the value, otherwise false.
+ * Returns true if the set contains the value, otherwise false.
  * @param value 
  * @return true if set contains value, false if it doesn't
  */
@@ -104,7 +104,6 @@ public void add(int item) {
 
  /** 
   * Removes an item from the set or does nothing if it is not there.
-  * 
   * @param item the integer value to remove from the set
   */	
 public void remove(int item) {
@@ -113,7 +112,6 @@ public void remove(int item) {
 
 /** 
  * Sets Union
- * 
  * @param intSetb the other IntegerSet to union with
  */
 public void union(IntegerSet intSetb) {
@@ -131,7 +129,7 @@ public void intersect(IntegerSet intSetb) {
 }; 
 
 /**
- *  Set difference, i.e., s1 –s2.
+ * Set difference, i.e., s1 –s2.
  * @param intSetb
  */
 public void diff(IntegerSet intSetb) {
@@ -139,7 +137,7 @@ public void diff(IntegerSet intSetb) {
 };
 
 /**
- *  Set complement, all elements not in s1. 11 pts.
+ * Set complement, all elements not in s1. 11 pts.
  * @param intSetb the other IntegerSet to compare against
  */
 public void complement(IntegerSet intSetb) {
